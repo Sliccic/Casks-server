@@ -1,2 +1,1 @@
-# YuukiGame-Web
-This is for the yuuki server for web purposes.
+# 阿巴阿巴
