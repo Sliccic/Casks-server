@@ -35,6 +35,7 @@ export default function Home({ allPostsData }) {
             <Online server="天理一服" />
             <Online server="天理二服" />
             <Online server="天理测试服" />
+            <Online server="阵列三服" />
           </div>
 
         </div>

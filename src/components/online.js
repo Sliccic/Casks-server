@@ -11,6 +11,8 @@ export default function App({ server = "sg" }) {
     host = "2.casks.me"
   } else if(server == "天理测试服"){
     host = "test.casks.me"
+  } else if(server == "阵列三服"){
+    host = "server1.yuanshen.edu.rs"
   }
   
   const { data, error } = useSWR(
