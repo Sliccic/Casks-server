@@ -31,7 +31,7 @@ export default function App({ server = "sg" }) {
     var online;
     var mem;
     var url = `https://${host}/status/server`; 
-    console.log("url", url);
+    //console.log("url", url);
     mem = ""
 
     fetch(url)
