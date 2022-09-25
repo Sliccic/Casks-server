@@ -5,7 +5,7 @@ export default function App({ server = "sg" }) {
   var serName;
   if(server == "s1"){
       serName = "天理3.0指令一服在线人数:"
-      host = "1.casks.me"
+      host = "3.casks.me"
       seraddress = "电脑：1.casks.me 手机：https://1.casks.me"
   } else if(server == "s2"){
       serName = "天理3.0指令二服在线人数:"
