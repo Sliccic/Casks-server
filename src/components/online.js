@@ -6,19 +6,19 @@ export default function App({ server = "sg" }) {
   if(server == "s1"){
       serName = "天理3.1指令一服在线人数:"
       host = "1.casks.me"
-      seraddress = "电脑：1.casks.me 手机：https://1.casks.me"
+      seraddress = "电脑：login.casks.me"
   } else if(server == "s2"){
       serName = "天理3.1指令二服在线人数:"
       host = "2.casks.me"
-      seraddress = "电脑：2.casks.me 手机：https://2.casks.me"  
+      seraddress = "电脑：login.casks.me"  
   } else if(server == "s3"){
       serName = "天理3.1指令三服在线人数"
       host = "3.casks.me"
-      seraddress = "电脑：3.casks.me 手机：https://3.casks.me"
+      seraddress = "电脑：login.casks.me"
   } else if(server == "s4"){
       serName = "天理3.0魂服（无指令）在线人数:"
       host = "soul.casks.me:12100"
-      seraddress = "电脑：soul.casks.me:12100 手机：https://soul.casks.me:12100"
+      seraddress = "电脑：soul.casks.me:12100"
   } else if(server == "s5"){
     serName = "天理星穹铁道服GSR"
     host = "gsr.casks.me:12101"
