@@ -5,15 +5,15 @@ export default function App({ server = "sg" }) {
   var serName;
   if(server == "s1"){
       serName = "天理3.1指令一服在线人数:"
-      host = "1.casks.me"
+      host = "f1.casks.me:4433"
       seraddress = "电脑：login.casks.me"
   } else if(server == "s2"){
       serName = "天理3.1指令二服在线人数:"
-      host = "2.casks.me"
+      host = "f2.casks.me:4433"
       seraddress = "电脑：login.casks.me"  
   } else if(server == "s3"){
       serName = "天理3.1指令三服在线人数"
-      host = "3.casks.me"
+      host = "f3.casks.me:4433"
       seraddress = "电脑：login.casks.me"
   } else if(server == "s4"){
       serName = "天理3.0魂服（无指令）在线人数:"
