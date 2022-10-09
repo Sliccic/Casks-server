@@ -12,14 +12,10 @@ export default function App({ server = "sg" }) {
       host = "f2.casks.me:4433"
       seraddress = "电脑：login.casks.me"  
   } else if(server == "s3"){
-      serName = "天理3.1指令三服在线人数"
-      host = "f3.casks.me:4433"
-      seraddress = "电脑：login.casks.me"
-  } else if(server == "s4"){
       serName = "天理3.0魂服（无指令）在线人数:"
       host = "soul.casks.me:12100"
       seraddress = "电脑：soul.casks.me:12100"
-  } else if(server == "s5"){
+  } else if(server == "s4"){
     serName = "天理星穹铁道服GSR"
     host = "gsr.casks.me:12101"
     seraddress = "gsr.casks.me:12101，请前往网站查看教程"
