@@ -19,7 +19,6 @@ export default function Home({ allPostsData }) {
 
       <Head>
       <title>{siteTitle}</title>
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       </Head>
 
       <div class="home">
