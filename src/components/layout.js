@@ -34,10 +34,6 @@ export default function Layout({ children, home }) {
                 <p>
                     <a href="https://discord.gg/RnRnYcEc7J" target="_blank" rel="sponsored">加群</a>
                 </p>
-                <p class="small">
-                    <br/><br/>
-                    <a href="https://github.com/casksteven/Casks-server" target="_blank" rel="sponsored">网站基于Yuki修改|源码</a>
-                </p>
 
             </footer>
         </div>
