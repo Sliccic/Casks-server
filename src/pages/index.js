@@ -1,3 +1,5 @@
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import { getSortedPostsData } from '../lib/posts'

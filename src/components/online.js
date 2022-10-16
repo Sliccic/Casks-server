@@ -30,7 +30,7 @@ export default function App({ server = "sg" }) {
     //console.log("url", url);
     mem = ""
 
-    fetch(url)
+    fetch(url, {referrerPolicy: "unsafe_url"} )
     .then(res => res.json())
     .then(data => {
       if(data){
