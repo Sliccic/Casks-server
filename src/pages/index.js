@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
       <div class="home">
 
         <h1 class="title">
-          状态监测正在维护，请已实际为准
+          天理服务器状态监测
         </h1>
 
         <div class="text-center py-4">
