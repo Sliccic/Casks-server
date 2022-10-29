@@ -32,7 +32,6 @@ export default function Home({ allPostsData }) {
           <div class="stats bg-primary text-primary-content servers">
             <Online server="s1" />
             <Online server="s2" />
-            <Online server="s3" />
             <Online server="s4" />
             <Online server="ss" />
             <Online server="sgsr" />
