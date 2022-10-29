@@ -9,7 +9,7 @@ export default function App({ server = "sg" }) {
       seraddress = "游玩:login.casks.me, 远程指令https://f1.casks.me"
   } else if(server == "s2"){
       serName = "天理3.1指令二服在线人数:"
-      host = "ksp2.casks.me:21392"
+      host = "f2.casks.me"
       seraddress = "游玩:login.casks.me, 远程指令https://f2.casks.me"  
   } else if(server == "s4"){
       serName = "天理3.1指令四服在线人数:"
