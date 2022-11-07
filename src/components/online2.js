@@ -15,12 +15,12 @@ export default function App({ server = "sg" }) {
     var url = host; 
     console.log("url", url);
 
-    fetch(url)
+    fetch(url, { mode: 'no-cors'})
     .then(res => res.json())
     .then(data => {
       if(data){
-          if(typeof data.internal_data !== "undefined"){
-            online = data.internal_data;
+          if(typeof data.data.internal_data !== "undefined"){
+            online = data.data.internal_data;
           }
 
       }
@@ -28,7 +28,7 @@ export default function App({ server = "sg" }) {
     })
     .catch(error => {
       console.error('Error:', error);
-      online = "获取失败";
+      online = "正在制作监测";
 
       document.getElementById(server + "_online").innerText = online;
     });
