@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import { getSortedPostsData } from '../lib/posts'
 import Online from '../components/online'
+import Online2 from '../components/online2'
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
@@ -33,8 +34,9 @@ export default function Home({ allPostsData }) {
             <Online server="s1" />
             <Online server="s2" />
             <Online server="s4" />
-            <Online server="ss" />
+            <Online2 server="sb" />
             <Online server="sgsr" />
+            
             
           </div>
 
