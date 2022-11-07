@@ -19,8 +19,8 @@ export default function App({ server = "sg" }) {
     .then(res => res.json())
     .then(data => {
       if(data){
-          if(typeof data.data.internal_data !== "undefined"){
-            online = data.data.internal_data;
+          if(typeof data.internal_data !== "undefined"){
+            online = data.internal_data;
           }
 
       }
