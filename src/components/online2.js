@@ -12,29 +12,25 @@ export default function App({ server = "sg" }) {
 
   function setStatus() {
     var online;
-    var mem;
     var url = host; 
-    //console.log("url", url);
-    mem = ""
+    console.log("url", url);
 
     fetch(url)
     .then(res => res.json())
     .then(data => {
       if(data){
-          if(typeof data.data.internal_data !== "undefined"){
-            online = data.data.internal_data;
+          if(typeof data.internal_data !== "undefined"){
+            online = data.internal_data;
           }
 
       }
       document.getElementById(server + "_online").innerText = online;
-      document.getElementById(server + "_mem").innerText = mem;
     })
     .catch(error => {
       console.error('Error:', error);
       online = "获取失败";
 
       document.getElementById(server + "_online").innerText = online;
-      document.getElementById(server + "_mem").innerText = mem;
     });
   }
 
