@@ -28,7 +28,7 @@ export default function App({ server = "sg" }) {
     })
     .catch(error => {
       console.error('Error:', error);
-      online = "正在制作监测";
+      online = "请使用qq机器人查询";
 
       document.getElementById(server + "_online").innerText = online;
     });
